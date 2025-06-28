@@ -8,19 +8,19 @@ Para finalizar minha compra
 Contexto:
 Dado que eu queira finalizar minha compra
 
-Cenário: Cadastro inválido
+Esquema do Cenário: Cadastro inválido
 Quando eu não preencher os campos obritatórios
 E clicar no botão "FINALIZAR COMPRA"
 Então os camposobrigatórios que estiverem faltando informação devem ser tremer na tela chamando a minha atenção para preenchimento
 
-Cenário: Cadastro com campos vazios
+Esquema do Cenário: Cadastro com campos vazios
 Quando eu não preencher algum campo não obrigatório
 E clicar no botão "FINALIZAR COMPRA"
 Então deve exibir a mensagem de alerta "Existem campos em branco!"
 
-Cenário: Verificação de formato de E-mail
+Esquema do Cenário: Verificação de formato de E-mail
 Quando eu digitar o usuário <usuario>
-E clicar em outro campo
+E clicar em "Cadastrar"
 Então deve exibir a <mensagem>
 
 Exemplos:
